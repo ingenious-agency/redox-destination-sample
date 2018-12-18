@@ -1,0 +1,26 @@
+{
+  "name": "redox-destination-sample",
+  "version": "1.0.0",
+  "description": "A redox destination sample using @ingenious-redox/destination-middleware",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "tunnel": "lt --port 3000 --subdomain <replace with your subdomain here>"
+  },
+  "keywords": [
+    "redox",
+    "destination"
+  ],
+  "author": "Gabriel Chertok <gchertok@ingsw.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "@ingenious-redox/destination-middleware": "0.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "localtunnel": "^1.9.1",
+    "nodemon": "^1.18.9"
+  }
+}
